@@ -41,6 +41,8 @@ body {
 .profile {
     display: flex;
     align-items: center;
+    width: 200;
+    height: 200;
 }
 
 .profile img {
@@ -50,7 +52,7 @@ body {
 
 .info {
     border: 1px solid #ccc;
-    width: 100px;
-    height: 100px;
+    width: 950px;
+    height: 500px;
     padding: 20px;
 }
