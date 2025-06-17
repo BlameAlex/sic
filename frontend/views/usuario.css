@@ -48,7 +48,9 @@ body {
     margin-right: 10px;
 }
 
-.content {
+.info {
     border: 1px solid #ccc;
+    width: 100px;
+    height: 100px;
     padding: 20px;
 }
