@@ -29,11 +29,11 @@
               <div class="d-flex align-items-md-center" style="color: black;">
                 <label for="cuenta_con_trayectoria_laboral">¿Cuenta con trayectoria laboral?</label>
                 <div class="form-check ms-3">
-                  <input class="form-check-input" type="radio" name="OpcionesEstudia" id="opcion1" checked>
+                  <input class="form-check-input" type="radio" name="OpcionesEstudia" id="opcion1">
                   <label class="form-check-label" for="opcion1">Si</label>
                 </div>
                 <div class="form-check ms-3">
-                  <input class="form-check-input" type="radio" name="OpcionesEstudia" id="opcion2" checked>
+                  <input class="form-check-input" type="radio" name="OpcionesEstudia" id="opcion2">
                   <label class="form-check-label" for="opcion2">No</label>
                 </div>
                 <div class="ms-5">
@@ -52,11 +52,11 @@
               <div class="d-flex align-items-md-center" style="color: black;">
                 <label for="se_encuentra_trabajando_actualmente">¿Se encuentra trabajando actualmente?</label>
                 <div class="form-check ms-3">
-                  <input class="form-check-input" type="radio" name="OpcionesEstudia" id="opcion1" checked>
+                  <input class="form-check-input" type="radio" name="OpcionesEstudia" id="opcion1" >
                   <label class="form-check-label" for="opcion1">Si</label>
                 </div>
                 <div class="form-check ms-3">
-                  <input class="form-check-input" type="radio" name="OpcionesEstudia" id="opcion2" checked>
+                  <input class="form-check-input" type="radio" name="OpcionesEstudia" id="opcion2" >
                   <label class="form-check-label" for="opcion2">No</label>
                 </div>
                 <div class="ms-5">
@@ -70,11 +70,11 @@
               <div class="d-flex align-items-md-center" style="color: black;">
                 <label for="el_trabajo_que_realiza_actualmente_tiene_relacion_con_su_profesion">¿El trabajo que realiza actualmente tiene relación con su profesión?</label>
                 <div class="form-check ms-3">
-                  <input class="form-check-input" type="radio" name="OpcionesEstudia" id="opcion1" checked>
+                  <input class="form-check-input" type="radio" name="OpcionesEstudia" id="opcion1">
                   <label class="form-check-label" for="opcion1">Si</label>
                 </div>
                 <div class="form-check ms-3">
-                  <input class="form-check-input" type="radio" name="OpcionesEstudia" id="opcion2" checked>
+                  <input class="form-check-input" type="radio" name="OpcionesEstudia" id="opcion2">
                   <label class="form-check-label" for="opcion2">No</label>
                 </div>
               </div>  
@@ -88,6 +88,7 @@
                 <hr class="flex-grow-1" style="color: #3b3b3b;">
               </div>
 
+              <!-- Seccion clonable -->
               <div class="d-flex align-items-center">
                 <div class="flex-grow-1 me-3">
                   <label for="nombre_institucion" style="color: black;">Nombre de la Institución</label>
@@ -105,7 +106,7 @@
               <div class="d-flex align-items-center">
                 <div class="flex-grow-1 me-3">
                   <label for="puesto" style="color: black;">Puesto</label>
-                  <input type="text" id="puesto" name="puesto" class="form-control" placeholder="puesto" required>
+                  <input type="text" id="puesto" name="puesto" class="form-control" placeholder="Puesto" required>
                 </div> 
                 <div class="flex-grow-1 me-3">
                   <label for="area" style="color: black;">Area</label>
@@ -133,11 +134,11 @@
               <label for="motivo_separacion" style="color: black;">Motivo de separacion</label>
               <textarea type="text" id="motivo_separacion" name="motivo_separacion" class="form-control align-text-top" style="height: 100px;" placeholder="Escriba aqui" required></textarea>
               
-              <!-- SEPARADOR "Trabajos Previos"-->
+              <!-- SEPARADOR "+"-->
               <div class="d-flex align-items-center">
                 <hr class="flex-grow-1" style="color: #3b3b3b;">
                 <span class="px-3">
-                  <img src="../assets/SIC_cube.png" alt="Logo" class="mb-1" style="max-width: 30px; display: inline-block;">
+                  <button type="button" class="btn btn-secondary rounded-circle" onclick="/* Function to clone the previous section */">+</button>
                 </span>
                 <hr class="flex-grow-1" style="color: #3b3b3b;">
               </div>
