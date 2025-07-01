@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Dashboard Admin</title>
+  <title>Search Admin</title>
   <link rel="stylesheet" href="../public/css/bootstrap.min.css" />
   <link rel="stylesheet" href="../public/css/styles.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
@@ -21,8 +21,8 @@
       <!-- Sidebar -->
       <div class="col-md-2 sidebar p-3" id="sidebar">
         <ul class="nav nav-pills flex-column">
-          <li class="nav-item"><a class="nav-link active" href="#"><i class="bi bi-house-door"></i> Dashboard</a></li>
-          <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-search"></i> Búsqueda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-house-door"></i> Dashboard</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#"><i class="bi bi-search"></i> Búsqueda</a></li>
           <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-upload"></i> Cargas Pendientes</a></li>
           <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-bell"></i> Notificaciones</a></li>
           <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-person-plus"></i> Añadir Usuario</a></li>
@@ -33,34 +33,29 @@
       <!-- Contenido principal -->
        
       <div class="col-md-10 p-4" id="mainContent">
-        <h1>Dashboard</h1>
-       
+        <h1>Busqueda</h1>
+        <form action="#" method="get" class="search-button">
+          <input type="search" id="search-input" name="q" placeholder="Buscar...">
+          <button type="submit">Buscar</button>
+        </form>
         <div class="table-responsive">
           <table class="table table-bordered text-center table-hover table-striped">
             <thead>
-              <tr><th colspan="4">ALERTAS RECIENTES</th></tr>
-              <tr>
+            <tr>
+                <th>ID</th>
                 <th>NOMBRE</th>
-                <th>DOCUMENTO</th>
-                <th>ESTADO</th>
-                <th>ACCIONES</th>
-              </tr>
+                <th>CARGO</th>
+                <th>CORREO</th>
+                <th>RESUMEN</th>
+            </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>JUAN DANIEL LOPEZ MORALES</td><td>ACTA NACIMIENTO</td><td>PENDIENTE</td>
-                <td>
-                  <button class="icon-btn"><i class="bi bi-info-circle"></i></button>
-                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
-                  <button class="icon-btn"><i class="bi bi-eye-slash"></i></button>
-                </td>
-              </tr>
-              <tr><td>PEDRO</td><td>COMPROBANTE DOMICILIO</td><td>PENDIENTE</td><td>...</td></tr>
-              <tr><td>RONALDO</td><td>RFC</td><td>PENDIENTE</td><td>...</td></tr>
-              <tr><td>MARIO</td><td>INE</td><td>PENDIENTE</td><td>...</td></tr>
-              <tr><td>GUILLERMO</td><td>CURP</td><td>VENCIDO</td><td>...</td></tr>
-              <tr><td>BOB</td><td>CURP</td><td>VENCIDO</td><td>...</td></tr>
-              <tr><td>OLGA</td><td>CURP</td><td>VENCIDO</td><td>...</td></tr>
+                <td>Dato 1</td>
+                <td>Dato 2</td>
+                <td>Dato 3</td>
+                <td>Dato 4</td>
+                <td>Dato 5</td>
+             
             </tbody>
           </table>
         </div>
