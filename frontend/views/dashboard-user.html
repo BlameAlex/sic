@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard Admin</title>
+  <link rel="stylesheet" href="../public/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../public/css/styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
+</head>
+<body class="light-mode">
+  <!-- Botón de menú -->
+  <nav class="navbar bg-body-tertiary px-3">
+    <button class="btn btn-outline-dark " id="toggleMenu"><i class="bi bi-list"></i></button>
+    <h5 class="ms-3 mb-0 fw-bold text-success">BIENVENIDO</h5>
+    <button class="btn btn-outline-dark ms-auto" id="toggleMode"><i class="bi bi-moon-stars-fill"></i></button>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Sidebar -->
+      <div class="col-md-2 sidebar p-3" id="sidebar">
+        <ul class="nav nav-pills flex-column">
+          <li class="nav-item"><a class="nav-link active" href="../views/dashboard-admin.html"><i class="bi bi-house-door"></i> Dashboard</a></li>
+          <li class="nav-item"><a class="nav-link" href="../views/search-admin.html"><i class="bi bi-search"></i> Expediente</a></li>
+          <li class="nav-item"><a class="nav-link" href="../views/cPendientes-admin.html"><i class="bi bi-upload"></i> Cargar Archivos</a></li>
+          <li class="nav-item"><a class="nav-link" href="../views/notificaciones-admin.html"><i class="bi bi-bell"></i> Notificaciones</a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-gear"></i> Configuración</a></li>
+        </ul>
+      </div>
+
+      <!-- Contenido principal -->
+       
+      <div id="mainContent" class="container-fluid">
+  <div class="d-flex justify-content-between align-items-center mt-4">
+    <h1 class="text-success">DASHBOARD</h1>
+    <a href="#" class="text-muted"><i class="fas fa-sign-out-alt"></i> Cerrar Sesión</a>
+  </div>
+
+  <!-- Perfil del usuario -->
+  <div class="row align-items-center mt-5">
+    <!-- Icono -->
+    <div class="col-md-2 text-center">
+      <div class="rounded-circle border" style="width: 140px; height: 140px; display: flex; align-items: center; justify-content: center;">
+        <i class="fas fa-user-circle" style="font-size: 120px; color: #009688;"></i>
+      </div>
+    </div>
+
+    <!-- Nombre y cargo -->
+    <div class="col-md-10">
+      <h3 class="text-success mb-0">JUAN DANIEL LOPEZ MORALES</h3>
+      <h4 class="fw-bold text-secondary">DOCENTE</h4>
+      <hr>
+    </div>
+  </div>
+
+  <!-- Cuadro de texto -->
+  <div class="row mt-4">
+    <div class="col-12">
+      <div class="border p-3" style="min-height: 300px;">
+        BLA BLA BLA
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="/frontend/public/js/bootstrap.bundle.min.js"></script>
+  <script type="module" src="/frontend/public/js/app.js"></script>
+</body>
+</html>
