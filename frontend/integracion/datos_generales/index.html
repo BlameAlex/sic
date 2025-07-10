@@ -4,13 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Integracion | Datos Generales</title>
-  <link href="../public/css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="icon" href="../assets/SIC_cube.png" type="image/png">
+  <link href="../../public/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="icon" href="../../assets/SIC_cube.png" type="image/png">
 </head>
 <body class="bg-dark text-white">
   <div 
     class="min-vh-100"
-    style="background: url('../assets/UT_pattern_bg.png') 
+    style="background: url('../../assets/UT_pattern_bg.png') 
           no-repeat center center fixed; background-size: cover;
           background-color: rgba(0, 0, 0, 0.3);
           background-blend-mode: overlay;"
@@ -57,8 +57,8 @@
                     </button>
                     <div class="dropdown-menu" aria-labelledby="ddsexo">
                       <a class="dropdown-item" href="#" onclick="actualizarDD('Masculino','ddsexo')">Masculino</a>
-                      <a class="dropdown-item" href="#"onclick="actualizarDD('Femenino','ddsexo')">Femenino</a>
-                      <a class="dropdown-item" href="#"onclick="actualizarDD('No binario','ddsexo')">No binario</a>
+                      <a class="dropdown-item" href="#" onclick="actualizarDD('Femenino','ddsexo')">Femenino</a>
+                      <a class="dropdown-item" href="#" onclick="actualizarDD('No binario','ddsexo')">No binario</a>
                     </div>
                   </div>
                 </div> 
@@ -106,14 +106,16 @@
                 <input type="tel" id="tel_cel" name="tel_cel" class="form-control" placeholder="Tel. Cel" required/>
                 <input type="email" id="e_mail" name="e_mail" class="form-control" placeholder="E-mail" required/>
               </div>
+              
               <button type="submit" class="btn btn-primary w-25 ms-auto mt-4">Continuar</button>
+              
             </form>  
           </div>      
         </div>
       </div>
     </div>
   </div>  
-  <script src="../public/js/bootstrap.bundle.min.js"> </script>
+  <script src="../../public/js/bootstrap.bundle.min.js"> </script>
   <script>
     function actualizarDD(valor,id) {
       // Actualiza el texto del botón
