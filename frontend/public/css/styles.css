@@ -6,19 +6,23 @@ h1{
 }
 /* Sidebar fijo a la izquierda */
 .sidebar {
-  width: 250px;
+  position: relative;
+  width: 20%;
   color: #3a8f7b;
   background-color: #e0e0e0;
   min-height: 100vh;
-  position: fixed;
+  /*position: fixed; */
   top: 56px; /* altura de navbar */
   left: 0;
   z-index: 1000;
 }
 
 #mainContent {
-  margin-left: 250px;
+  position: relative;
+  padding-left: 40px;
+  margin-left: 50px;
   margin-top: 56px;
+  width: 75%;
 }
 
 /* Botones de acción */
