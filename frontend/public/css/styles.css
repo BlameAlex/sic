@@ -4,14 +4,13 @@ body {
 h1{
   text-align: center;
 }
-/* Sidebar fijo a la izquierda */
+/* Sidebara la izquierda */
 .sidebar {
   position: relative;
   width: 20%;
   color: #3a8f7b;
   background-color: #e0e0e0;
   min-height: 100vh;
-  /*position: fixed; */
   top: 56px; /* altura de navbar */
   left: 0;
   z-index: 1000;
